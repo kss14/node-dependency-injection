@@ -1,5 +1,5 @@
 {
-  "name": "@kss14/kmp-node-dependency-injection",
+  "name": "kmp-DI",
   "version": "1.0.2",
   "description": "The NodeDependencyInjection component allows you to standardize and centralize the way objects are constructed in your application.",
   "main": "dist/lib/index.js",
