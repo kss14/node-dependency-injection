@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zazoomauro/node-dependency-injection.git"
+    "url": "git+https://github.com/kss14/node-dependency-injection.git"
   },
   "keywords": [
     "node",
@@ -34,9 +34,9 @@
   "author": "Mauro Gadaleta <mggadaleta@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zazoomauro/node-dependency-injection/issues"
+    "url": "https://github.com/kss14/node-dependency-injection/issues"
   },
-  "homepage": "https://github.com/zazoomauro/node-dependency-injection#readme",
+  "homepage": "https://github.com/kss14/node-dependency-injection#readme",
   "engines": {
     "node": ">=14.0.0"
   },
