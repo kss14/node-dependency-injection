@@ -1,11 +1,11 @@
 {
   "name": "kmp-di",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "The NodeDependencyInjection component allows you to standardize and centralize the way objects are constructed in your application.",
-  "main": "lib/index.ts",
+  "main": "dist/lib/index.ts",
   "preferGlobal": true,
   "bin": {
-    "ndi": "bin/ndi.js"
+    "ndi": "dist/bin/ndi.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "inversion-of-control",
     "service-locator"
   ],
-  "types": "lib/types/index.d.ts",
+  "types": "dist/lib/types/index.d.ts",
   "author": "Mauro Gadaleta <mggadaleta@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -32,8 +32,9 @@
     "node": ">=14.0.0"
   },
   "scripts": {
-    "start": "ts-node server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:lib": "babel lib -d dist/lib -D --compact --no-comments",
+    "build:bin": "babel bin -d dist/bin -D --compact --no-comments",
+    "build": "npm run build:lib && npm run build:bin"
   },
   "dependencies": {
     "@babel/plugin-transform-runtime": "^7.17.10",

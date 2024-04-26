@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "CommonJs",
-    "moduleResolution": "node",
-    "allowJs": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "baseUrl": "."
+    "target": "ES6",
+    "lib": ["DOM", "ES7"],
+    "baseUrl": ".",
   }
 }
