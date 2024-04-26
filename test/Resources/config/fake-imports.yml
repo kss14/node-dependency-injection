@@ -1,3 +1,0 @@
-imports:
-    - { resource: ./fake-services.yml }
-    - { resource: ./fake-services-2.yml }

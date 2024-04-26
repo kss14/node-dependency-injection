@@ -1,3 +1,0 @@
-imports:
-    - { resource: ./foo/bar.yml }
-    - { resource: ./foo/baz.yml }

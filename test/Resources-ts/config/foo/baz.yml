@@ -1,3 +1,0 @@
-services:
-    baz:
-        class: ./../../Foobar

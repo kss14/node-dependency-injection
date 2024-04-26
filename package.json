@@ -2,19 +2,10 @@
   "name": "kmp-di",
   "version": "1.0.3",
   "description": "The NodeDependencyInjection component allows you to standardize and centralize the way objects are constructed in your application.",
-  "main": "dist/lib/index.js",
-  "directories": {
-    "test": "test"
-  },
+  "main": "lib/index.js",
   "preferGlobal": true,
   "bin": {
-    "ndi": "dist/bin/ndi.js"
-  },
-  "scripts": {},
-  "standard": {
-    "ignore": [
-      "test/"
-    ]
+    "ndi": "bin/ndi.js"
   },
   "repository": {
     "type": "git",
@@ -30,7 +21,7 @@
     "inversion-of-control",
     "service-locator"
   ],
-  "types": "dist/lib/types/index.d.ts",
+  "types": "lib/types/index.d.ts",
   "author": "Mauro Gadaleta <mggadaleta@gmail.com>",
   "license": "MIT",
   "bugs": {

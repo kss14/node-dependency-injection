@@ -1,7 +1,0 @@
-{
-  "services": {
-    "bar": {
-      "class": "./../../Foobar"
-    }
-  }
-}

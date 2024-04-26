@@ -1,4 +1,0 @@
-services:
-  foo:
-    class: ./../bar
-    arguments: ['%@company/repository']

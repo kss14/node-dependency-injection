@@ -1,7 +1,0 @@
-{
-  "services": {
-    "baz": {
-      "class": "./../../foobar"
-    }
-  }
-}
