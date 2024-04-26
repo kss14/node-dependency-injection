@@ -6,3 +6,6 @@ coverage/
 coverage.lcov
 npm-debug.log
 .DS_STORE
+server.ts
+src/
+config/
